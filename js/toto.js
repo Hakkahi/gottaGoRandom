@@ -2,6 +2,8 @@
 
 let url = ''
 
+console.log(window.location.hostname);
+
 if(window.location.hostname == 'localhost' || window.location.hostname == '127.0.0.1'){
     url = 'http://127.0.0.1:8887'
 }
